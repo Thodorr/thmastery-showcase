@@ -10,16 +10,13 @@
 
 ![THMastery gameplay preview: skill check and outfits](docs/media/preview.gif)
 
----
-
 ## Trailer
 
-<!-- Drag THMastery_Trailer_1080p.mp4 into the GitHub README editor and replace the line below with the generated link. -->
-https://github.com/user-attachments/assets/REPLACE-WITH-TRAILER-LINK
+https://github.com/user-attachments/assets/7b968190-f7be-47ed-b0b0-be96049a4204
 
 ## About
 
-**THMastery** is a 2D narrative CRPG inspired by *Disco Elysium*. You play a new student at THM whose studies, conversations and decisions determine which paths through the game are available. There is no combat: challenges are solved through dialogue, skill checks, items and exploration.
+**THMastery** is a 2D narrative CRPG inspired by *Disco Elysium*. You play a new student at THM whose studies, conversations and decisions determine which paths through the game are available.
 
 > **Status:** playable vertical slice / prototype
 
@@ -73,9 +70,7 @@ THMastery can be played almost entirely with the mouse.
 
 - **Godot Engine 3.5** with **GDScript**
 - **Dialogic 1.4.5**, extended for THMastery's dialogue and skill-check systems (custom choice buttons with check labels, probability tooltips and dice animation)
-- **Data-driven content:** items, checks and quests are Godot resources (`Units/`), so new content can be added without touching engine code
-- **Runtime content loading:** a content factory and DLC menu integrate additional content into the running game
-
+  
 ## Running the project
 
 1. Install **Godot Engine 3.5**.
@@ -90,23 +85,9 @@ When exporting, keep `*.json` in the export preset's include filter, otherwise t
 ## Documentation
 
 - **Game Design Document:** [docs/THMastery_GDD.pdf](docs/THMastery_GDD.pdf)
-- **Project wiki:** design and development notes in the [wiki](https://github.com/Thodorr/THMastery/wiki) (work in progress)
-
-## Team
-
-<!-- Fill in names, roles and profile links. -->
-
-| Name | Role |
-| --- | --- |
-| Tom | REPLACE: role |
-| REPLACE | REPLACE |
-
-Developed as an integration project in the Bachelor's program at [Technische Hochschule Mittelhessen (THM)](https://www.thm.de).
 
 ## Assets and licences
 
 THMastery uses third-party assets, primarily from LimeZu's *Modern* collections. These assets have their own licence terms and are not automatically covered by a licence for this repository's source code.
 
 Before redistributing the project, please check the terms for all included assets and keep the corresponding credits and licences with the project.
-
-<!-- Add credits for the music tracks and any other third-party assets here. -->

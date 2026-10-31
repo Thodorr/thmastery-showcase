@@ -73,7 +73,7 @@ THMastery can be played almost entirely with the mouse.
 
 ## Documentation
 
-- **Game Design Document:** [docs/THMastery_GDD.pdf](docs/GD-Dokument_THMastery.pdf)
+- **Game Design Document:** [docs/GD-Dokument_THMastery.pdf](docs/GD-Dokument_THMastery.pdf)
 
 ## Assets and licences
 

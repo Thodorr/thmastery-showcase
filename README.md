@@ -8,7 +8,7 @@
 
 **A narrative no-combat CRPG set on the THM campus in Gießen.**
 
-![THMastery gameplay preview: skill check and outfits](docs/media/preview.gif)
+![THMastery gameplay preview: skill check and outfits](media/preview.gif)
 
 ## Trailer
 
@@ -45,7 +45,7 @@ The demo covers the beginning of the game. The rest of the campus and the main s
 
 ## Download
 
-1. Download `THMastery_Windows.zip` from the [latest release](https://github.com/Thodorr/THMastery/releases/latest).
+1. Download `THMastery_Windows.zip` from the [latest release](https://github.com/Thodorr/thmastery-showcase/releases/latest).
 2. Unzip it and start `THMastery.exe`. No installation is required.
 
 > **Note:** The executable is not code-signed, so Windows SmartScreen may show a warning on first launch. Choose **More info → Run anyway**.
@@ -70,21 +70,10 @@ THMastery can be played almost entirely with the mouse.
 
 - **Godot Engine 3.5** with **GDScript**
 - **Dialogic 1.4.5**, extended for THMastery's dialogue and skill-check systems (custom choice buttons with check labels, probability tooltips and dice animation)
-  
-## Running the project
-
-1. Install **Godot Engine 3.5**.
-2. Clone this repository.
-3. Import `project.godot` in the Godot Project Manager.
-4. Open the project and choose **Run Project** or press **F5**.
-
-Dialogic is included in `addons/dialogic`. If Godot reports a missing plugin after importing the project, check that it is enabled under **Project → Project Settings → Plugins**.
-
-When exporting, keep `*.json` in the export preset's include filter, otherwise the skill table in `Data/` is missing from the build.
 
 ## Documentation
 
-- **Game Design Document:** [docs/THMastery_GDD.pdf](docs/THMastery_GDD.pdf)
+- **Game Design Document:** [docs/THMastery_GDD.pdf](docs/GD-Dokument_THMastery.pdf)
 
 ## Assets and licences
 

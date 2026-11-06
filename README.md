@@ -22,24 +22,38 @@ https://github.com/user-attachments/assets/7b968190-f7be-47ed-b0b0-be96049a4204
 
 ## Features
 
-- Dialogue choices change NPC affinity, later conversations and the ways a task can be solved.
-- Active and passive skill checks use one of ten attributes, a D20 roll and situational modifiers. Active checks are chosen by the player; a tooltip shows the success probability, the required roll and the modifiers. Passive checks happen automatically when the character is good enough to notice something.
-- Courses follow a Digital Media Systems degree structure and grant skills that open up new options.
-- Nerve acts as the game's health system. Stress reduces it; sleep, food and other activities restore it.
-- Repeated choices can unlock personality traits with advantages and drawbacks.
-- Equipment (27 outfits, 13 hats, face accessories and trinkets) changes the character's appearance and attributes.
-- The campus contains NPCs, readable documents, vendors, equipment, consumables and context-sensitive interactions.
-- Additional content can be loaded at runtime through a DLC menu.
+### Dialogue and choices
+- Branching conversations where choices change **NPC affinity** and how characters react later on.
+- Tasks with **multiple solutions**: talk your way through, use the right item, or find another route by exploring.
+
+The systems support this, but the vertical slice only uses it in a few places.
+
+### Character
+- **Ten attributes** define what your character is good and bad at.
+- **Nerve** replaces health: stress wears it down, while sleep, food and other activities restore it.
+
+### Skill checks
+- Every check tests one attribute and is resolved with a **D20 roll** plus modifiers.
+- **Active checks** are picked by the player. A tooltip shows the success chance, the required roll and every modifier before you commit.
+- **Passive checks** fire automatically when your character is skilled enough to notice something others would miss.
+
+### Equipment and items
+- **27 outfits, 13 hats** and face accessories that change both your look and your attributes.
+- **Trinkets** that boost your attributes.
+- Consumables, readable documents and vendors spread across the campus.
+
+### Exploration
+- A hand-built campus with NPCs and hidden items.
 
 ## Current demo
 
 The current build is a vertical slice around the start of the game. It includes:
 
-- the introduction area, which teaches movement, dialogue, tasks, items and checks;
-- the entrance level of Building A10, including the Pastaria, main hall and Mensa;
-- a small exterior area around A10 with side content, a vendor and hidden items;
-- example tasks with several solutions, including dialogue, item and exploration routes;
-- menus for attributes, tasks, inventory, skills, options and the HUD.
+- a tutorial area that teaches movement, dialogue, tasks, items and checks;
+- the ground floor of one university building, with its main hall, the cafeteria and a pasta bar;
+- a small outdoor area around that building with side content, a vendor and hidden items;
+- a few example tasks that can be solved through dialogue, items or exploration;
+- menus for attributes, tasks, inventory, skills and options, plus the HUD.
 
 The demo covers the beginning of the game. The rest of the campus and the main story are not part of it yet.
 
